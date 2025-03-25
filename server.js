@@ -17,7 +17,8 @@ const db = mysql.createConnection({
     password: "ParamGadi",  // Your MySQL password
     database: "if0_38598917_hitaishipay_db"  // Your created database name
 });
-
+ 
+  
 // Connect to MySQL
 db.connect((err) => {
     if (err) {
